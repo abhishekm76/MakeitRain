@@ -1,0 +1,38 @@
+Make it rain app
+
+/todo 50
+    You can search for items in the attributes section of ui by clicking the search icon
+    Clicking on the right of the entry field will open resources where you can browse Android colors (uses @android:colors for example "@android:color/holo_blue_light"
+
+todo 51
+    text into string
+    Layoutwidth if hardcoded it goes to the side of the window. Hence use wrap contents to get it to the center
+    Harcoded strings to in strings.xml. you can add one by startign a <string tag.  @tells it to take it from a ref
+    Triangle warning as well
+    Can also set up by using @string and then use extract string resource from helper
+
+todo 52
+        R.java is  resources class to link code to all resources
+        findview by id uses (R.id....) to get the correct resources
+        Can be used for Android inbnuilt resources like images or xml
+
+todo   53
+        Onclick via xml
+        setcontent view R.layout.activty_main goes to the layout directory to get the xml
+        renaming an xml element - now asks if you want to update all ref to it - cool
+        can type up setonclick listener in oncreate method. need to define button etc variables in class and onclick in oncreate
+        or can put a new method name in xml onclick property and define it outside of oncreate. This probably gets executed when layout is inflated. Does not need variables for view types eiter
+
+todo 54
+        += increments and adds to the same variable
+        Use NumberFormat class to get format instance and apply it to the int value and then convert to string.
+
+todo 55
+        when we are adding a toast - need to pass context from get app context.
+        Context knows whats on the screen and therefore where we need to ref to android internals, we need context
+        Can put it in strings adn use R.strings.messagenames
+
+todo 56
+        use getResources if you want to get a resource instead of direclty using R (except for findviewbyID)
+        alternately can use Color class and pass black etc
+        switch and case is pretty good. if you want incremental changes (changes to remain between case 1 adn case 2 etc)
