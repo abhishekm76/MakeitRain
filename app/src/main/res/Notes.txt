@@ -36,3 +36,16 @@ todo 56
         use getResources if you want to get a resource instead of direclty using R (except for findviewbyID)
         alternately can use Color class and pass black etc
         switch and case is pretty good. if you want incremental changes (changes to remain between case 1 adn case 2 etc)
+
+todo 58
+        Everything we do is java api - but there are native levels below it - HAL et
+
+todo 59
+        Manifest has to have all activities registered
+        Action and category of first activity is main and launcher
+        Alos has the icon
+        Also has the theme
+        Also has permisssion
+
+todo 60
+        setcontentview has the layout file to use - change it to get a different screen
